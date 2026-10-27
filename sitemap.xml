@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-       <loc>https://manzid.github.io/cloth-care/</loc>
-       <lastmod>2026-10-25T07:39:35+00:00</lastmod>
-       <priority>1.0000</priority>
+    <loc>https://manzid.github.io/cloth-care/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://manzid.github.io/cloth-care/prices/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://manzid.github.io/cloth-care/services/steam-pressing-kampala/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://manzid.github.io/cloth-care/services/suit-care-kampala/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://manzid.github.io/cloth-care/services/laundry-pickup-kampala/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://manzid.github.io/cloth-care/areas/kololo/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://manzid.github.io/cloth-care/areas/naguru/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://manzid.github.io/cloth-care/areas/entebbe/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>
