@@ -95,23 +95,39 @@
 <body class="bg-white text-gray-800 font-sans antialiased">
 <header class="sticky top-0 z-40 bg-navy-900 border-b border-white/10">
 <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-<a href="../" class="flex items-center gap-2 text-white font-serif font-bold text-lg"><i class="fa-solid fa-shirt text-teal-400"></i> ClothCare Kla</a>
-<nav class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-300"><a href="../prices/" class="hover:text-teal-400 transition-colors">Prices</a><a href="../services/steam-pressing-kampala/" class="hover:text-teal-400 transition-colors">Steam pressing</a><a href="../services/suit-care-kampala/" class="hover:text-teal-400 transition-colors">Suit care</a><a href="../services/laundry-pickup-kampala/" class="hover:text-teal-400 transition-colors">Pickup</a></nav>
+<!-- FIXED: Changed ../ to ../../ to reach root -->
+<a href="../../" class="flex items-center gap-2 text-white font-serif font-bold text-lg"><i class="fa-solid fa-shirt text-teal-400"></i> ClothCare Kla</a>
+
+<nav class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-300">
+  <!-- FIXED: Changed ../ to ../../ -->
+  <a href="../../prices/" class="hover:text-teal-400 transition-colors">Prices</a>
+  <a href="../../services/steam-pressing-kampala/" class="hover:text-teal-400 transition-colors">Steam pressing</a>
+  <a href="../../services/suit-care-kampala/" class="hover:text-teal-400 transition-colors">Suit care</a>
+  <a href="../../services/laundry-pickup-kampala/" class="hover:text-teal-400 transition-colors">Pickup</a>
+</nav>
+
 <a href="https://wa.me/256750349712?text=Hello%20ClothCare%20Kla%2C%20I%27m%20in%20Entebbe%20and%20I%27d%20like%20to%20book." target="_blank" rel="noopener" class="hidden md:inline-flex px-4 py-2 rounded-xl bg-teal-400 text-navy-950 font-bold text-sm">Book on WhatsApp</a>
 <button id="mbtn" class="md:hidden text-gray-300 p-2" aria-label="Menu"><i class="fa-solid fa-bars text-xl"></i></button>
 </div>
-<div id="mmenu" class="hidden md:hidden bg-navy-900 px-4 pb-4 space-y-2 text-gray-300"><a href="../prices/" class="block py-1 hover:text-teal-400 transition-colors">Prices</a><a href="../services/steam-pressing-kampala/" class="block py-1 hover:text-teal-400 transition-colors">Steam pressing</a><a href="../services/suit-care-kampala/" class="block py-1 hover:text-teal-400 transition-colors">Suit care</a><a href="../services/laundry-pickup-kampala/" class="block py-1 hover:text-teal-400 transition-colors">Pickup</a>
+<div id="mmenu" class="hidden md:hidden bg-navy-900 px-4 pb-4 space-y-2 text-gray-300">
+  <!-- FIXED: Changed ../ to ../../ -->
+  <a href="../../prices/" class="block py-1 hover:text-teal-400 transition-colors">Prices</a>
+  <a href="../../services/steam-pressing-kampala/" class="block py-1 hover:text-teal-400 transition-colors">Steam pressing</a>
+  <a href="../../services/suit-care-kampala/" class="block py-1 hover:text-teal-400 transition-colors">Suit care</a>
+  <a href="../../services/laundry-pickup-kampala/" class="block py-1 hover:text-teal-400 transition-colors">Pickup</a>
 <a href="https://wa.me/256750349712?text=Hello%20ClothCare%20Kla%2C%20I%27m%20in%20Entebbe%20and%20I%27d%20like%20to%20book." target="_blank" rel="noopener" class="block text-center py-3 rounded-xl bg-teal-400 text-navy-950 font-bold">Book on WhatsApp</a></div>
 </header>
 <main>
 <section class="bg-navy-900 text-white">
 <div class="max-w-3xl mx-auto px-4 py-12">
-<p class="text-xs text-teal-300 mb-3"><a class="hover:underline" href="../">Home</a> / <a class="hover:underline" href="../areas/entebbe/">Areas</a> / <span>Entebbe</span></p>
+<!-- FIXED: Breadcrumb links and removed the dead /areas/ link -->
+<p class="text-xs text-teal-300 mb-3"><a class="hover:underline" href="../../">Home</a> / <span>Areas</span> / <span>Entebbe</span></p>
 <h1 class="font-serif text-3xl sm:text-4xl font-bold leading-tight">Laundry and steam pressing in Entebbe</h1>
 <p class="text-gray-300 mt-4 text-lg">We serve Entebbe as well as Kampala. Whether you live here or are passing through, we collect and deliver.</p>
 <div class="flex flex-wrap gap-3 mt-6">
 <a href="https://wa.me/256750349712?text=Hello%20ClothCare%20Kla%2C%20I%27m%20in%20Entebbe%20and%20I%27d%20like%20to%20book." target="_blank" rel="noopener" class="px-6 py-3 rounded-xl bg-teal-400 text-navy-950 font-bold">Book on WhatsApp</a>
-<a href="../#calculator" class="px-6 py-3 rounded-xl border border-white/30 text-white font-semibold">Price calculator</a>
+<!-- FIXED: Calculator link -->
+<a href="../../#calculator" class="px-6 py-3 rounded-xl border border-white/30 text-white font-semibold">Price calculator</a>
 </div>
 </div>
 </section>
@@ -123,14 +139,41 @@
 <p class="text-gray-300 mt-2">Open Monday to Saturday, 7:00 AM to 8:00 PM. No upfront payment.</p>
 <a href="https://wa.me/256750349712?text=Hello%20ClothCare%20Kla%2C%20I%27m%20in%20Entebbe%20and%20I%27d%20like%20to%20book." target="_blank" rel="noopener" class="inline-block mt-5 px-8 py-3 rounded-xl bg-teal-400 text-navy-950 font-bold">Message us on WhatsApp</a>
 </div>
-<h2 class="font-serif text-2xl font-bold text-navy-900 mt-12 mb-4">More from ClothCare Kla</h2><ul class="grid sm:grid-cols-2 gap-2 text-teal-700 font-semibold"><li><a class="hover:underline" href="../prices/">Prices</a></li><li><a class="hover:underline" href="../services/steam-pressing-kampala/">Steam pressing</a></li><li><a class="hover:underline" href="../services/suit-care-kampala/">Suit care</a></li><li><a class="hover:underline" href="../services/laundry-pickup-kampala/">Pickup</a></li><li><a class="hover:underline" href="../areas/kololo/">Laundry in Kololo</a></li><li><a class="hover:underline" href="../areas/naguru/">Laundry in Naguru</a></li></ul>
+<h2 class="font-serif text-2xl font-bold text-navy-900 mt-12 mb-4">More from ClothCare Kla</h2>
+<ul class="grid sm:grid-cols-2 gap-2 text-teal-700 font-semibold">
+  <!-- FIXED: Updated paths in the bottom grid -->
+  <li><a class="hover:underline" href="../../prices/">Prices</a></li>
+  <li><a class="hover:underline" href="../../services/steam-pressing-kampala/">Steam pressing</a></li>
+  <li><a class="hover:underline" href="../../services/suit-care-kampala/">Suit care</a></li>
+  <li><a class="hover:underline" href="../../services/laundry-pickup-kampala/">Pickup</a></li>
+  <li><a class="hover:underline" href="../kololo/">Laundry in Kololo</a></li>
+  <li><a class="hover:underline" href="../naguru/">Laundry in Naguru</a></li>
+</ul>
 </article>
 </main>
 <footer class="bg-navy-950 text-gray-400 text-sm py-12">
 <div class="max-w-5xl mx-auto px-4 grid sm:grid-cols-3 gap-8">
 <div><p class="text-white font-serif font-bold text-lg mb-2">ClothCare Kla</p><p class="text-xs">Mobile laundry and in-home wardrobe care in Kampala and Entebbe.</p></div>
-<div><p class="text-white font-bold text-xs uppercase mb-3">Services</p><ul class="space-y-2 text-xs"><li><a href="../prices/" class="hover:text-teal-400">Prices</a></li><li><a href="../services/steam-pressing-kampala/" class="hover:text-teal-400">Steam pressing</a></li><li><a href="../services/suit-care-kampala/" class="hover:text-teal-400">Suit care</a></li><li><a href="../services/laundry-pickup-kampala/" class="hover:text-teal-400">Pickup</a></li></ul></div>
-<div><p class="text-white font-bold text-xs uppercase mb-3">Areas and contact</p><ul class="space-y-2 text-xs"><li><a href="../areas/kololo/" class="hover:text-teal-400">Laundry in Kololo</a></li><li><a href="../areas/naguru/" class="hover:text-teal-400">Laundry in Naguru</a></li><li><a href="../areas/entebbe/" class="hover:text-teal-400">Laundry in Entebbe</a></li><li>+256 750 349712</li><li>care@clothcarekla.ug</li><li>Mon - Sat: 7:00 AM - 8:00 PM</li></ul></div>
+<div><p class="text-white font-bold text-xs uppercase mb-3">Services</p>
+  <ul class="space-y-2 text-xs">
+    <!-- FIXED: Footer service links -->
+    <li><a href="../../prices/" class="hover:text-teal-400">Prices</a></li>
+    <li><a href="../../services/steam-pressing-kampala/" class="hover:text-teal-400">Steam pressing</a></li>
+    <li><a href="../../services/suit-care-kampala/" class="hover:text-teal-400">Suit care</a></li>
+    <li><a href="../../services/laundry-pickup-kampala/" class="hover:text-teal-400">Pickup</a></li>
+  </ul>
+</div>
+<div><p class="text-white font-bold text-xs uppercase mb-3">Areas and contact</p>
+  <ul class="space-y-2 text-xs">
+    <!-- FIXED: Footer area links -->
+    <li><a href="../kololo/" class="hover:text-teal-400">Laundry in Kololo</a></li>
+    <li><a href="../naguru/" class="hover:text-teal-400">Laundry in Naguru</a></li>
+    <li><a href="../entebbe/" class="hover:text-teal-400">Laundry in Entebbe</a></li>
+    <li>+256 750 349712</li>
+    <li>care@clothcarekla.ug</li>
+    <li>Mon - Sat: 7:00 AM - 8:00 PM</li>
+  </ul>
+</div>
 </div>
 <p class="text-center text-xs text-gray-500 mt-8">&copy; 2026 ClothCare Kla Ltd.</p>
 </footer>
